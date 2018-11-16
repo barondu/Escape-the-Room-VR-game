@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: 3234dc1d17ecb8d4a9c86cd850fd05ea
+timeCreated: 1511203955
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Key_0
+    100002: Key_1
+    100004: Key_2
+    100006: Key_3
+    100008: Key_4
+    100010: Key_5
+    100012: Key_6
+    100014: Key_7
+    100016: Key_8
+    100018: Key_9
+    100020: Key_Enter
+    100022: Key_X
+    100024: //RootNode
+    100026: Keypad_Mesh
+    100028: Led_Green
+    100030: Led_Red
+    400000: Key_0
+    400002: Key_1
+    400004: Key_2
+    400006: Key_3
+    400008: Key_4
+    400010: Key_5
+    400012: Key_6
+    400014: Key_7
+    400016: Key_8
+    400018: Key_9
+    400020: Key_Enter
+    400022: Key_X
+    400024: //RootNode
+    400026: Keypad_Mesh
+    400028: Led_Green
+    400030: Led_Red
+    2300000: Key_0
+    2300002: Key_1
+    2300004: Key_2
+    2300006: Key_3
+    2300008: Key_4
+    2300010: Key_5
+    2300012: Key_6
+    2300014: Key_7
+    2300016: Key_8
+    2300018: Key_9
+    2300020: Key_Enter
+    2300022: Key_X
+    2300024: Keypad_Mesh
+    2300026: Led_Green
+    2300028: Led_Red
+    3300000: Key_0
+    3300002: Key_1
+    3300004: Key_2
+    3300006: Key_3
+    3300008: Key_4
+    3300010: Key_5
+    3300012: Key_6
+    3300014: Key_7
+    3300016: Key_8
+    3300018: Key_9
+    3300020: Key_Enter
+    3300022: Key_X
+    3300024: Keypad_Mesh
+    3300026: Led_Green
+    3300028: Led_Red
+    4300000: Led_Green
+    4300002: Led_Red
+    4300004: Key_Enter
+    4300006: Key_0
+    4300008: Key_X
+    4300010: Key_9
+    4300012: Key_8
+    4300014: Key_7
+    4300016: Key_6
+    4300018: Key_5
+    4300020: Key_4
+    4300022: Key_3
+    4300024: Key_2
+    4300026: Key_1
+    4300028: Keypad_Mesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Keypad
+    second: {fileID: 2100000, guid: 8a80ca1a2f32d8c4da0e47f111c4664e, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

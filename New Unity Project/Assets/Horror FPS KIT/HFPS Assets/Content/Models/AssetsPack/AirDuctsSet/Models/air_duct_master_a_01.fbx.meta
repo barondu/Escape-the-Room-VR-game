@@ -1,0 +1,213 @@
+fileFormatVersion: 2
+guid: f57bb196d0e15e24495a673e2d1eb125
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: m10_AirDuct_1m_a_01
+    100004: m10_AirDuct_2m_a_01
+    100006: m10_AirDuct_45degree_a_01
+    100008: m10_AirDuct_90degree_a_01
+    100010: m10_AirDuct_Bridge_a_01
+    100012: m10_AirDuct_Cap_a_01
+    100014: air_duct_1m_a_01
+    100016: air_duct_2m_a_01
+    100018: air_duct_45degree_a_01
+    100020: air_duct_90degree_a_01
+    100022: air_duct_bridge_a_01
+    100024: air_duct_cap_a_01
+    100026: air_duct_cable_a_01
+    100028: air_duct_cable_b_01
+    100030: Object003
+    100032: air_duct_cuff_a_01
+    100034: air_duct_1m_b_01
+    100036: air_duct_2m_b_01
+    100038: air_duct_45degree_b_01
+    100040: air_duct_90degree_b_01
+    100042: Particle View 001
+    100044: air_duct_cap_b_01
+    100046: air_duct_1m_c_01
+    100048: air_duct_1m_d_01
+    100050: air_duct_1m_e_01
+    100052: air_duct_1m_a_004
+    100054: air_duct_1m_f_01
+    100056: Object001
+    100058: Object002
+    400000: //RootNode
+    400002: m10_AirDuct_1m_a_01
+    400004: m10_AirDuct_2m_a_01
+    400006: m10_AirDuct_45degree_a_01
+    400008: m10_AirDuct_90degree_a_01
+    400010: m10_AirDuct_Bridge_a_01
+    400012: m10_AirDuct_Cap_a_01
+    400014: air_duct_1m_a_01
+    400016: air_duct_2m_a_01
+    400018: air_duct_45degree_a_01
+    400020: air_duct_90degree_a_01
+    400022: air_duct_bridge_a_01
+    400024: air_duct_cap_a_01
+    400026: air_duct_cable_a_01
+    400028: air_duct_cable_b_01
+    400030: Object003
+    400032: air_duct_cuff_a_01
+    400034: air_duct_1m_b_01
+    400036: air_duct_2m_b_01
+    400038: air_duct_45degree_b_01
+    400040: air_duct_90degree_b_01
+    400042: Particle View 001
+    400044: air_duct_cap_b_01
+    400046: air_duct_1m_c_01
+    400048: air_duct_1m_d_01
+    400050: air_duct_1m_e_01
+    400052: air_duct_1m_a_004
+    400054: air_duct_1m_f_01
+    400056: Object001
+    400058: Object002
+    2300000: m10_AirDuct_1m_a_01
+    2300002: m10_AirDuct_2m_a_01
+    2300004: m10_AirDuct_45degree_a_01
+    2300006: m10_AirDuct_90degree_a_01
+    2300008: m10_AirDuct_Bridge_a_01
+    2300010: m10_AirDuct_Cap_a_01
+    2300012: air_duct_1m_a_01
+    2300014: air_duct_2m_a_01
+    2300016: air_duct_45degree_a_01
+    2300018: air_duct_90degree_a_01
+    2300020: air_duct_bridge_a_01
+    2300022: air_duct_cap_a_01
+    2300024: air_duct_cable_a_01
+    2300026: air_duct_cable_b_01
+    2300028: Object003
+    2300030: air_duct_cuff_a_01
+    2300032: air_duct_1m_b_01
+    2300034: air_duct_2m_b_01
+    2300036: air_duct_45degree_b_01
+    2300038: air_duct_90degree_b_01
+    2300040: air_duct_cap_b_01
+    2300042: air_duct_1m_c_01
+    2300044: air_duct_1m_d_01
+    2300046: air_duct_1m_e_01
+    2300048: air_duct_1m_a_004
+    2300050: air_duct_1m_f_01
+    2300052: Object001
+    2300054: Object002
+    3300000: m10_AirDuct_1m_a_01
+    3300002: m10_AirDuct_2m_a_01
+    3300004: m10_AirDuct_45degree_a_01
+    3300006: m10_AirDuct_90degree_a_01
+    3300008: m10_AirDuct_Bridge_a_01
+    3300010: m10_AirDuct_Cap_a_01
+    3300012: air_duct_1m_a_01
+    3300014: air_duct_2m_a_01
+    3300016: air_duct_45degree_a_01
+    3300018: air_duct_90degree_a_01
+    3300020: air_duct_bridge_a_01
+    3300022: air_duct_cap_a_01
+    3300024: air_duct_cable_a_01
+    3300026: air_duct_cable_b_01
+    3300028: Object003
+    3300030: air_duct_cuff_a_01
+    3300032: air_duct_1m_b_01
+    3300034: air_duct_2m_b_01
+    3300036: air_duct_45degree_b_01
+    3300038: air_duct_90degree_b_01
+    3300040: air_duct_cap_b_01
+    3300042: air_duct_1m_c_01
+    3300044: air_duct_1m_d_01
+    3300046: air_duct_1m_e_01
+    3300048: air_duct_1m_a_004
+    3300050: air_duct_1m_f_01
+    3300052: Object001
+    3300054: Object002
+    4300000: m10_AirDuct_45degree_a_01
+    4300002: m10_AirDuct_1m_a_01
+    4300004: m10_AirDuct_2m_a_01
+    4300006: m10_AirDuct_90degree_a_01
+    4300008: m10_AirDuct_Bridge_a_01
+    4300010: m10_AirDuct_Cap_a_01
+    4300012: air_duct_45degree_a_01
+    4300014: air_duct_1m_a_01
+    4300016: air_duct_2m_a_01
+    4300018: air_duct_90degree_a_01
+    4300020: air_duct_bridge_a_01
+    4300022: air_duct_cap_a_01
+    4300024: air_duct_cable_a_01
+    4300026: Object003
+    4300028: air_duct_cable_b_01
+    4300030: air_duct_cuff_a_01
+    4300032: air_duct_2m_b_01
+    4300034: air_duct_1m_b_01
+    4300036: air_duct_45degree_b_01
+    4300038: air_duct_90degree_b_01
+    4300040: air_duct_cap_b_01
+    4300042: air_duct_1m_c_01
+    4300044: air_duct_1m_d_01
+    4300046: air_duct_1m_e_01
+    4300048: air_duct_1m_f_01
+    4300050: air_duct_1m_a_004
+    4300052: Object001
+    4300054: Object002
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 0
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,285 @@
+fileFormatVersion: 2
+guid: 5e5a9b1f20184a44eaf34c553857373e
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Camera
+    100002: f_index.01.L
+    100004: f_index.02.L
+    100006: f_index.03.L
+    100008: f_index.03.L_end
+    100010: f_middle.01.L
+    100012: f_middle.02.L
+    100014: f_middle.03.L
+    100016: f_middle.03.L_end
+    100018: f_pinky.01.L
+    100020: f_pinky.02.L
+    100022: f_pinky.03.L
+    100024: f_pinky.03.L_end
+    100026: f_ring.01.L
+    100028: f_ring.02.L
+    100030: f_ring.03.L
+    100032: f_ring.03.L_end
+    100034: forearm.L
+    100036: forearm.L_end
+    100038: FPS_Hands
+    100040: hand.L
+    100042: //RootNode
+    100044: IK.L
+    100046: IK.L_end
+    100048: Lantern
+    100050: Lantern 1
+    100052: Lantern_Arms
+    100054: Lantern_end
+    100056: palm.01.L
+    100058: palm.02.L
+    100060: palm.03.L
+    100062: palm.04.L
+    100064: thumb.01.L
+    100066: thumb.02.L
+    100068: thumb.03.L
+    100070: thumb.03.L_end
+    100072: upper_arm.L
+    400000: Camera
+    400002: f_index.01.L
+    400004: f_index.02.L
+    400006: f_index.03.L
+    400008: f_index.03.L_end
+    400010: f_middle.01.L
+    400012: f_middle.02.L
+    400014: f_middle.03.L
+    400016: f_middle.03.L_end
+    400018: f_pinky.01.L
+    400020: f_pinky.02.L
+    400022: f_pinky.03.L
+    400024: f_pinky.03.L_end
+    400026: f_ring.01.L
+    400028: f_ring.02.L
+    400030: f_ring.03.L
+    400032: f_ring.03.L_end
+    400034: forearm.L
+    400036: forearm.L_end
+    400038: FPS_Hands
+    400040: hand.L
+    400042: //RootNode
+    400044: IK.L
+    400046: IK.L_end
+    400048: Lantern
+    400050: Lantern 1
+    400052: Lantern_Arms
+    400054: Lantern_end
+    400056: palm.01.L
+    400058: palm.02.L
+    400060: palm.03.L
+    400062: palm.04.L
+    400064: thumb.01.L
+    400066: thumb.02.L
+    400068: thumb.03.L
+    400070: thumb.03.L_end
+    400072: upper_arm.L
+    2000000: Camera
+    2100000: fps_hand
+    2100002: Lantern_Material
+    2100004: Lantern_Glass
+    4300000: FPS_Hands
+    4300002: Lantern
+    7400000: Lantern_Draw
+    7400002: Lantern_Hide
+    7400004: Lantern_Hide_1
+    7400006: Lantern_Reload
+    9500000: //RootNode
+    13700000: FPS_Hands
+    13700002: Lantern
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Lantern_Draw
+      takeName: Lantern_Arms|Lantern_Draw
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Lantern_Hide
+      takeName: Lantern_Arms|Lantern_Hide
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Lantern_Hide_1
+      takeName: Lantern_Arms|Lantern_Hide_1
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Lantern_Reload
+      takeName: Lantern_Arms|Lantern_Reload
+      firstFrame: 0
+      lastFrame: 65
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
