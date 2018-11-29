@@ -94,7 +94,7 @@ public class Inventory : MonoBehaviour, IPointerClickHandler {
 
 	void Update()
 	{
-		if (!switcher) {
+		/*if (!switcher) {
 			switcher = gameManager.scriptManager.GetScript<ItemSwitcher>();
         }
         else
@@ -115,6 +115,7 @@ public class Inventory : MonoBehaviour, IPointerClickHandler {
 				slots [i].GetComponent<InventorySlot> ().isCombinable = false;
 			}
 		}
+        */
 	}
 
     /// <summary>

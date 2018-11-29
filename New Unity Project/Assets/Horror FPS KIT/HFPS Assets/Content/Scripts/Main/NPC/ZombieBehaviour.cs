@@ -116,7 +116,7 @@ public class ZombieBehaviour : MonoBehaviour
 
     void Update()
     {
-        playerDead = playerObject.GetComponent<HealthManager>().isDead;
+        //playerDead = playerObject.GetComponent<HealthManager>().isDead;
         stateInfo = _Animator.GetCurrentAnimatorStateInfo(0);
         transInfo = _Animator.GetAnimatorTransitionInfo(0);
 

@@ -136,7 +136,7 @@ public class UICustomOptions : MonoBehaviour {
     {
         if (!configHandler && !inputController) return;
 
-        shadowDistanceText.text = ShadowDistanceSlider.value.ToString();
+        //shadowDistanceText.text = ShadowDistanceSlider.value.ToString();
 
         if (!qChanged && isLoaded)
         {
