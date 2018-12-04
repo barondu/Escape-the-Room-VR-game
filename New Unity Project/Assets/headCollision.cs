@@ -48,7 +48,7 @@ public class headCollision : MonoBehaviour
     {
         if (collision.gameObject.tag == "Wall")
         {
-            Debug.Log("Collid with wall:" + this.transform.position);
+           // Debug.Log("Collid with wall:" + this.transform.position);
             Player.transform.position -= 2 * new Vector3(recentPosition.x - lastPosition.x, 0, recentPosition.z - lastPosition.z);
             coll = true;
             lockedLastPosition = lastPosition;//if head iron move too fast, the player will still go through the wall, so it needs to freeze the lastposition's update when head move through the wall

@@ -7,6 +7,7 @@ public class WallLamp : MonoBehaviour {
     public bool onlyMaterial;
 	public bool isFilckering;
 	public bool isOn;
+    public Color color;
 
 	void Start()
 	{
@@ -41,7 +42,7 @@ public class WallLamp : MonoBehaviour {
         {
             if (isOn)
             {
-                GetComponent<MeshRenderer>().material.SetColor("_EmissionColor", new Color(1f, 1f, 1f));
+                GetComponent<MeshRenderer>().material.SetColor("_EmissionColor", color);
             }
             else
             {
