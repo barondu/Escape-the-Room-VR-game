@@ -35,6 +35,7 @@ public class DragSound : MonoBehaviour {
 
     public void OnRigidbodyRelease()
     {
+        AudioSource.PlayClipAtPoint(dragSound, transform.position, dragVolume);
         once = false;
     }
 }
