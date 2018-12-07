@@ -22,13 +22,14 @@ public class Jumpscare : MonoBehaviour {
 		effects = Camera.main.transform.parent.transform.parent.gameObject.GetComponent<JumpscareEffects> ();
 	}
 
-	void OnTriggerEnter(Collider other)
+	public void OnTriggerEnter()
 	{
-		if (other.tag == "Player" && !isPlayed) {
-			AnimationObject.Play ();
+        //if (other.tag == "Player" && !isPlayed) {
+        
+            AnimationObject.Play ();
 			if(AnimationSound){AudioSource.PlayClipAtPoint(AnimationSound, Camera.main.transform.position, SoundVolume);}
 			effects.Scare (ScareLevelSec);
-			isPlayed = true;
-		}
+			//isPlayed = true;
+		//}
 	}
 }
