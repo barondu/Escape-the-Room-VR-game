@@ -77,7 +77,7 @@ public class LightSwitch : MonoBehaviour {
         }
     }
 
-    public void OnLoad(Newtonsoft.Json.Linq.JObject token)
+    public void ZippoWeight(Newtonsoft.Json.Linq.JObject token)
     {
         isOn = (bool)token["isOn"];
 

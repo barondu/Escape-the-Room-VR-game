@@ -21,6 +21,7 @@ public class PlankHamer : MonoBehaviour {
         {
             this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
             this.GetComponent<Rigidbody>().useGravity = true;
+            this.GetComponent<AudioSource>().Play();
         }
     }
 }

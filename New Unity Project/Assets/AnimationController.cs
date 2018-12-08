@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class AnimationController : MonoBehaviour {
     //public GameObject AnimObject;
-    public Animation anim;
+    public Animation anim; 
     public string animationName;
+    public string animationName1;
     // Use this for initialization
     void Start () {
 		
@@ -17,6 +18,12 @@ public class AnimationController : MonoBehaviour {
 	}
 
     public void PlayeAnim()
+    {
+        anim.Play(animationName);
+        //anim.Play("");
+    }
+
+    public void PlayeAnim1()
     {
         anim.Play(animationName);
         //anim.Play("");

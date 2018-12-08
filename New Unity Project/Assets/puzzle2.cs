@@ -8,6 +8,7 @@ public class puzzle2 : MonoBehaviour {
     public GameObject text;
     public GameObject environmentLamp;
     public GameObject environmentLight;
+    public AudioSource audio;
     private double[] keyColor = new double[3];
     private int count;
     // Use this for initialization
@@ -59,6 +60,7 @@ public class puzzle2 : MonoBehaviour {
             //environmentLight.SetActive(true);
             environmentLamp.GetComponent<MeshRenderer>().materials[0] = Resources.Load("Mat_Lamp") as Material;
             environmentLight.SetActive(true);
+            audio.Play();
 
         }
         else

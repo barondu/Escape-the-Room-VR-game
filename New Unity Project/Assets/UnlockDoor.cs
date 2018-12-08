@@ -46,20 +46,26 @@ public class UnlockDoor : MonoBehaviour
     {
         if (isHasKey && useAnim && !isOpen)
         {
+            if (doorblocker != null)
+            { 
             doorblocker.SetActive(false);
+            }
             anim.Play("Door_Open");
+            this.GetComponent<AudioSource>().Play();
             if(IsJumpcare)
             {
                 jumpscare.GetComponent<Jumpscare>().OnTriggerEnter();
             }
             isOpen = true;
         }
+        /*
         else if (isHasKey && useAnim && isOpen)
         {
             doorblocker.SetActive(false);
             anim1.Play("Door_Close");
             isOpen = false;
         }
+        */
         else if (isHasKey && !useAnim)
         {
             doorblocker.SetActive(false);
@@ -103,7 +109,7 @@ public class UnlockDoor : MonoBehaviour
         for(int i = 0; i < switchsLinearMapping.Length;i++)
         {
             float linearValue = switchsLinearMapping[i].GetComponent< Valve.VR.InteractionSystem.LinearMapping>().value;
-            print(linearValue);
+            //print(linearValue);
             if (linearValue == 1.0f && password[i] == 1 )
             {
                 count++;
@@ -113,23 +119,17 @@ public class UnlockDoor : MonoBehaviour
                 count++;
             }
         }
-       print(count);
+       //print(count);
        if (count == switchsLinearMapping.Length)
        {
             setIsHasKey(true);
             unlock();
+            GameObject text;
+            text = GameObject.Find("endtext");
+            text.GetComponent<TextMesh>().text = "CONGRATUATIONS!\n YOU ESCAPED FROM THIS HOUSE\nTHANKS FOR YOUR PLAYING\n\nDEVELOPER: \nBAIRUI DU\nJIAJIE WANG\nSIQI YU";
+            
        }
         
     }
-
-    /*public void SetSwitchValue(int index, bool bool1)
-    {
-        if(index>switchs.Length-1|| index<0)
-        {
-            return;
-        }
-        switchs[index]
-    }
-    */
    
 }
