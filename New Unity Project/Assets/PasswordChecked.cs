@@ -7,6 +7,8 @@ public class PasswordChecked : MonoBehaviour {
     GameObject text2;
     GameObject text3;
     GameObject text4;
+    public GameObject card;
+    public GameObject key;
     private Animator anim;
     private bool islocked;
     // Use this for initialization
@@ -25,6 +27,8 @@ public class PasswordChecked : MonoBehaviour {
 		if(islocked && text1.GetComponent<TextMesh>().text == 4.ToString() && text2.GetComponent<TextMesh>().text == 3.ToString() && text3.GetComponent<TextMesh>().text == 9.ToString() && text4.GetComponent<TextMesh>().text == 6.ToString())
         {
             anim.SetBool("hasKey", true);
+            key.SetActive(true);
+            card.SetActive(true);
             print("open");
             this.GetComponent<AudioSource>().Play();
             islocked = false;
