@@ -3,20 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PasswordChecked : MonoBehaviour {
-    GameObject text1;
-    GameObject text2;
-    GameObject text3;
-    GameObject text4;
+    public GameObject text1;
+    public GameObject text2;
+    public GameObject text3;
+    public GameObject text4;
     public GameObject card;
     public GameObject key;
     private Animator anim;
     private bool islocked;
     // Use this for initialization
     void Start () {
-        text1 = GameObject.Find("button_text1");
-        text2 = GameObject.Find("button_text2");
-        text3 = GameObject.Find("button_text3");
-        text4 = GameObject.Find("button_text4");
         islocked = true;
         anim= gameObject.GetComponent<Animator>();
         anim.SetBool("hasKey", false);
